@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #d2691e;
+    }
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .menu-item {
+      display: block;
+      background-color: #fff;
+      border: 2px solid #f4c784;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .menu-item:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+    .item-name {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+    }
+    .item-price {
+      color: #a0522d;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🍽️ Aaharam Aithey Adiripothundi </h1>
+
+  <div class="menu-container">
+    <a href="paneer.html" class="menu-item">
+      <div class="item-name">Paneer Butter Masala</div>
+       
+    </a>
+    <a href="biryani.html" class="menu-item">
+      <div class="item-name">Chicken Biryani</div>
+       
+    </a>
+    <a href="manchurian.html" class="menu-item">
+      <div class="item-name">Veg Manchurian</div>
+       
+    </a>
+    <a href="dosa.html" class="menu-item">
+      <div class="item-name">Masala Dosa</div>
+       
+    </a>
+  </div>
+
+</body>
+</html>
